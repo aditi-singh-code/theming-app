@@ -20,7 +20,7 @@ export const ButtonChild = () => {
   }, []);
 
   return (
-    <div style={{ padding: "40px" }}>
+    <div style={{ display: "flex", justifyContent: "center" }}>
       <button style={styleButton}></button>
     </div>
   );
